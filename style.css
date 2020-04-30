@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Hind,sans-serif;
+}
+.holder div {
+    border: 1px solid red;
+}
+
+.holder {
+    display: flex;
+    min-height: 100vh;
+    opacity: .8;
+    background: #1a1b23;
+}
+
+.leftSide {
+    flex:1;
+    background-image: url(https://preview.ibb.co/eBNcPJ/anudeepgi.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.rightSide {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+
+.option1, .option2, .option3 {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.option1:hover,.option2:hover,.option3:hover{
+    animation: zoom 30s infinite;
+}
+
+@keyframes zoom {
+    0% {
+      background-size: 100% 100%;
+    }
+    10% {
+        background-size: 150% 150%;
+      }
+    100% {
+      background-size: 100% 100%;
+    }
+  }
+
+.option1 {
+    background-image: url(https://preview.ibb.co/cjBt1y/technology_1283624_960_720.jpg);
+}
+
+.option2{
+    background-image: url(https://preview.ibb.co/cMq6Ze/analysis_analytics_application_590016_2.jpg);
+}
+
+.option3{
+    background-image: url(https://preview.ibb.co/n71zLK/antique_box_call_220197_1.jpg);
+}
+
+.content{
+    text-align: center;
+    color: #fff;
+    text-align: center;
+    
+    
+}
+
