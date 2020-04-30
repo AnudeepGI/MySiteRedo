@@ -1,0 +1,24 @@
+{
+  "name": "flexbox",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000M\u0000y\u0000S\u0000i\u0000t\u0000e\u0000R\u0000e\u0000d\u0000o\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack js/index.js --output dist/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnudeepGI/MySiteRedo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnudeepGI/MySiteRedo/issues"
+  },
+  "homepage": "https://github.com/AnudeepGI/MySiteRedo#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
