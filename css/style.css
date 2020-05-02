@@ -23,13 +23,23 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    transition: flex-grow 1000ms linear;
 }
 
 .rightSide {
     flex:1;
     display: flex;
     flex-direction: column;
+    transition: flex-grow 1000ms linear;
+}
+
+.removedLeft{
+    /* Setting this to zero breaks the transition */
+    flex-grow: 0.00001;
+}
+.removedRight {
+    /* Setting this to zero breaks the transition */
+    flex-grow: 0.00001;
 }
 
 .option1, .option2, .option3 {
@@ -71,7 +81,9 @@
     text-align: center;
     color: #fff;
     text-align: center;
-    
-    
+}
+
+.allInfo {
+    display: flex;
 }
 
